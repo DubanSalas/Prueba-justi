@@ -1,0 +1,24 @@
+mkdir - crear carpetas
+touch nombre_del_archivo.ext - crear archivo
+ ENTORNO VIRTUAL
+#Para crear un entorno virtual siguiente codigo
+  python3 -m venv venv
+#Para activar el entorno en linux
+  source venv/bin/activate
+#configuraciòn de froend (react + vite + tailwind)
+  Para crear frontend
+    npm install -g npm@11.5.2
+    npm create vite@latest frontend --template react
+    cd my-project
+    PARA EJECUTAR EL FROENTEND
+      npm run dev
+
+PARA EJECUTAR EL FROENTEND
+ npm run dev
+npm install
+# revisar contenedores activos
+docker ps
+# revisar contenedores activos e inactivos
+docker ps -a
+EJECUTAR docker
+docker start oracle-docker
