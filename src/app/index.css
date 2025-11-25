@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* Reset básico */
+* {
+  box-sizing: border-box;
+}
+
+/* Configuración global del body */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Configuración del contenedor raíz */
+#root {
+  min-height: 100vh;
+}
+
+/* Scrollbar personalizado para mejor UX */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Z-index hierarchy para evitar superposiciones */
+.z-navbar { z-index: 40; }
+.z-sidebar { z-index: 30; }
+.z-dropdown { z-index: 45; }
+.z-modal { z-index: 50; }
+.z-tooltip { z-index: 60; }
